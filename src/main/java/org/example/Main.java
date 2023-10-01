@@ -2,6 +2,7 @@ package org.example;
 import java.util.HashMap;
 
 class Main {
+
     public boolean isIsomorphic(String s, String t) {
         int count1 = s.length();
         int count2 = t.length();
