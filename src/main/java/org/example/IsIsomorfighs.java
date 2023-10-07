@@ -1,7 +1,7 @@
 package org.example;
 import java.util.HashMap;
 
-class Main {
+class IsIsomorfighs {
 
     public boolean isIsomorphic(String s, String t) {
         int count1 = s.length();
@@ -27,7 +27,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        new Main().isIsomorphic("egg","add");
+        new IsIsomorfighs().isIsomorphic("egg","add");
     }
 }
 
